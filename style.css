@@ -424,8 +424,8 @@ box-sizing: border-box;
 font-weight: bold;
 }
 .body-index__button:hover{
-color: #E0001D;
-border-color: #E0001D;
+color: #9C0181;
+border-color: #9C0181;
 }
 .body-index__h1{
 text-align: center;
@@ -439,7 +439,7 @@ color: #9C0181;
 .body-index__div{
 display: flex;
 justify-content: center;
-margin-top: 36%;
+margin-top: 38%;
 }
 .main-useful-information--divflex{
   display: flex;
@@ -471,6 +471,9 @@ margin-top: 36%;
 .nihe-main__p--cop{
   padding: 0px 0 100px;
   text-align: center;
+}
+.a-forma:hover{
+  color: #9C0181;
 }
 @media(max-width:767px){
   .form-name{
@@ -580,7 +583,7 @@ margin-top: 36%;
   }
   .nav-about-us__ul{
     display: grid;
-    grid-template-columns: 10% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
     gap: 20px;
   }
   .display-none{
@@ -605,6 +608,13 @@ margin-top: 36%;
   .img__useful{
     width: 70%;
   }
+  .main-price__div-3 {
+    height: 200px;
+}
+.nav-about-us__li:nth-child(5) {
+  width: 150px;
+  width: 200px;
+}
 }
 @media(min-width:1200px){
 
@@ -628,6 +638,33 @@ margin-top: 36%;
 }
 .main-cooperation__h1{
   font-size: 60px;
+}
+.main-useful-information__img6{
+  height: 600PX;
+}
+.nav-about-us__li:nth-child(1){
+  width: 5%;
+}
+.nav-about-us__li:nth-child(2){
+  width: 12%;
+}
+.nav-about-us__li:nth-child(3){
+  width: 15%;
+}
+.nav-about-us__li:nth-child(4){
+  width: 10%;
+}
+.nav-about-us__li:nth-child(5){
+  width: 15%;
+}
+.nav-about-us__li:nth-child(6){
+  width: 12%;
+}
+.nav-about-us__li:nth-child(7){
+  width: 12%;
+}
+.nav-about-us__li:nth-child(8){
+  width: 10%;
 }
 }
 
