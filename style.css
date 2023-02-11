@@ -617,7 +617,9 @@ margin-top: 38%;
 }
 }
 @media(min-width:1200px){
-
+.main-about-us--display{
+  display: none;
+}
 .display-none{
   display: none;
 }
